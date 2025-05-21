@@ -1,0 +1,18 @@
+#mainContainer{
+  display: flex;
+  padding: 2rem;
+  margin: 1rem;
+  gap: 4rem;
+}
+
+#rightContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#leftContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
